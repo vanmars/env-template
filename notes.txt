@@ -1,0 +1,18 @@
+*************************
+Immutability Helper Notes
+*************************
+Purpose: Used to copy and update an object
+GitHub: https://github.com/kolodny/immutability-helper
+
+const update = require('immutability-helper');
+const objectCopy = update(originalObject, {prop: "property to update" });
+
+
+************
+Lodash Notes
+************
+Purpose: Deep Clone Objects
+Website: https://lodash.com/
+
+const clonedeep = require('lodash.clonedeep');
+const objectCopy = clonedeep(originalObject);
